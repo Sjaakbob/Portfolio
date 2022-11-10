@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head id="head">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,28 @@
    
 <div id="header">
     <div class="container">
-        <nav>
-            <img src="Images/Test.jpeg" class="logo">
+        <nav class="navbar">
+            <img src="images/Test.jpeg" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#Games">Games</a></li>
                 <li><a href="#footer">My Cv</a></li>
-                
-                
+
+                <div class="datetime">
+                    <div class="date">
+                        <span id="dayname">Day</span>,
+                        <span id="month">Month</span>
+                        <span id="daynumber">00</span>,
+                        <span id="year">Year</span>
+                    </div>
+                    <div class="time">
+                        <span id="hours">00</span>:
+                        <span id="minutes">00</span>:
+                        <span id="seconds">00</span>
+                        <script src="clock/clock.js"></script>
+                    </div>  
+                </div>                         
             </ul>
         </nav>
         <div class="footer">
@@ -30,7 +43,7 @@
                     <ul>
                        <p>Use the arrow keys to play snake. Made with JavaScript</p>
                         <canvas id="game" width="400" height="400"/>
-                        <script src="Snake/index.js"></script>
+                        <script src="snake/snake.js"></script>
                         
                     </ul>
 
@@ -39,8 +52,8 @@
     </div>
 </div>
 <div id="footer">
-    <p>sdfsdfsdfs</p>
-        <a href="Images/Mike Vink.pdf" download class="btn btn2">My CV</a>
+    <p>Download my CV</p>
+        <a href="Images/Mike Vink.pdf" download class="btn btn2">Download my CV</a>
         
 </div>
 </body>
