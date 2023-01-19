@@ -14,7 +14,7 @@ function updateClock(){
     }
     console.log("TEst 1");
     var months = ["January", "February","March", "April", "May", "June", "July",
-    "August","September","October", "December"];
+    "August","September","October","November", "December"];
     var weeks = ["Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday"];
     var ids = ["dayname","month","daynumber", "year", "hours", "minutes","seconds"];
     var values = [weeks[dayn], months[month], dnum.pad(2), year, hrs.pad(2), min.pad(2), sec.pad(2)];
